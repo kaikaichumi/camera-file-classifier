@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec.backup
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 打包輸出
+installer_output/
+output/
+release/
+test_dist/
+
+# 臨時文件
+*.log
+*.tmp
+config.json
+
+# 保留源代碼需要的文件
+!CameraFileClassifier.spec
+!installer.iss
+!requirements.txt
+!icon.ico
+!icon.png

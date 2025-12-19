@@ -1,0 +1,6 @@
+# 相機檔案分類工具
+# Python 3.10+ 內建 tkinter，無需額外安裝
+
+# 如需打包成 exe，可使用:
+# pip install pyinstaller
+# pyinstaller --onefile --windowed --name "相機檔案分類工具" main.py
