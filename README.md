@@ -5,8 +5,9 @@
 Automatically classify camera files (RAW, JPG, HEIC, Videos) into different folders.
 
 <p align="center">
-  <img src="icon.png" alt="Application Icon" width="200"/>
+  <img width="256" height="256" alt="icon" src="https://github.com/user-attachments/assets/0a3bca7f-79f0-4393-8e5b-9cba04d0736a" />
 </p>
+
 
 ## ✨ Features
 
