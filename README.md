@@ -59,12 +59,6 @@ See [LICENSE](LICENSE) for details.
 
 For detailed documentation in Traditional Chinese, see [README_ZH.md](README_ZH.md).
 
-## 🙏 Acknowledgments
-
-- [Pillow](https://python-pillow.org/) - Image processing
-- [PyInstaller](https://www.pyinstaller.org/) - Application packaging
-- [Inno Setup](https://jrsoftware.org/isinfo.php) - Installer creation
-
 ---
 
 **If this tool helps you, please give it a ⭐ Star!**
