@@ -17,7 +17,7 @@
 
 ## 📥 下載
 
-前往 [Releases](https://github.com/YOUR_USERNAME/camera-file-classifier/releases/latest) 頁面下載最新版本。
+前往 [Releases](https://github.com/kaikaichumi/camera-file-classifier/releases/latest) 頁面下載最新版本。
 
 ### 安裝版（推薦）
 適合一般用戶，包含完整的安裝向導和桌面快捷方式。

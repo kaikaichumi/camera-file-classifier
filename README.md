@@ -20,7 +20,7 @@ Automatically classify camera files (RAW, JPG, HEIC, Videos) into different fold
 
 ## 📥 Download
 
-Go to [Releases](https://github.com/YOUR_USERNAME/camera-file-classifier/releases/latest) to download the latest version.
+Go to [Releases](https://github.com/kaikaichumi/camera-file-classifier/releases/latest) to download the latest version.
 
 ### Installer (Recommended)
 📦 **CameraFileClassifier_Setup_v1.0.0.exe** (~10 MB)
