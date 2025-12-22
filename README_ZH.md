@@ -180,16 +180,11 @@ prepare_release.bat
 
 詳見 [LICENSE](LICENSE) 文件。
 
-## 🙏 致謝
-
-- [Pillow](https://python-pillow.org/) - 圖片處理
-- [PyInstaller](https://www.pyinstaller.org/) - 程式打包
-- [Inno Setup](https://jrsoftware.org/isinfo.php) - 安裝程式製作
 
 ## 📧 聯絡方式
 
-- GitHub Issues: [提交問題](https://github.com/YOUR_USERNAME/camera-file-classifier/issues)
-- Email: your.email@example.com
+- GitHub Issues: [提交問題](https://github.com/kaikaichumi/camera-file-classifier/issues)
+- Email: karta2398980@gmail.com
 
 ---
 

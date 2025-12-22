@@ -59,6 +59,12 @@ See [LICENSE](LICENSE) for details.
 
 For detailed documentation in Traditional Chinese, see [README_ZH.md](README_ZH.md).
 
+## 📧 Contact
+
+- GitHub Issues: [Submit Problem](https://github.com/kaikaichumi/camera-file-classifier/issues)
+- Email: karta2398980@gmail.com
+
+
 ---
 
 **If this tool helps you, please give it a ⭐ Star!**
