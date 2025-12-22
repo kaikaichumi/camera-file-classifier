@@ -52,9 +52,15 @@ test_dist/
 *.tmp
 config.json
 
+# 其他文件
+others/
+.claude/
+
 # 保留源代碼需要的文件
 !CameraFileClassifier.spec
 !installer.iss
 !requirements.txt
 !icon.ico
-!icon.png
+
+
+
