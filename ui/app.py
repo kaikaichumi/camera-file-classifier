@@ -356,25 +356,25 @@ class CameraFileClassifierApp:
 
     def _do_classify(self, dest: str):
         """執行分類（在背景執行緒）"""
+        import queue
+
+        # 使用 queue 来同步对话框结果
+        dialog_queue = queue.Queue()
+
         def on_duplicate(src: str, dest: str) -> DuplicateAction:
             # 在主執行緒顯示對話框
-            result = [DuplicateAction.SKIP]
-
             def show_dialog():
                 dialog = DuplicateDialog(self.root, src, dest)
-                result[0] = dialog.result
+                dialog_queue.put(dialog.result)
 
             self.root.after(0, show_dialog)
 
-            # 等待對話框結果
-            while self.is_running:
-                self.root.update()
-                if result[0] != DuplicateAction.SKIP or not self.is_running:
-                    break
-                import time
-                time.sleep(0.1)
-
-            return result[0]
+            # 等待對話框結果（使用 queue.get() 会阻塞直到有结果，不会卡死UI）
+            try:
+                result = dialog_queue.get(timeout=300)  # 最多等待5分钟
+                return result
+            except queue.Empty:
+                return DuplicateAction.SKIP
 
         def on_progress(current: int, total: int, filename: str):
             progress = (current / total) * 100
