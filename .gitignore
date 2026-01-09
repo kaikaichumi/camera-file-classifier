@@ -53,6 +53,7 @@ test_dist/
 config.json
 
 # 其他文件
+releases/
 others/
 .claude/
 
